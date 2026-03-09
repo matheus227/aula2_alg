@@ -8,11 +8,11 @@ int main(){
     printf("Número Digitado: %d\n", numero); //%d entende que tem um valor mais para frente, ou seja o "numero".
 
     if(numero > 0) {
-        prinf("Número Positivo\n");
+        printf("Número Positivo\n");
     } else if(numer < 0) { //NÃO é igual python, o elif do python é else if no C, e precisa estar dps da chaves do if.
-        prinf("Número Negtivo\n");
+        printf("Número Negtivo\n");
     } else {
-        prinf("Número Zero\n");
+        printf("Número Zero\n");
     }
 
     if(numero % 2 == 0) {
