@@ -14,7 +14,7 @@ int main() {
 
  if((idade >= 18) && (idade <= 70)) //&& é equivalente ao and do python. Se idade for maior ou igual a 18 E(&&) menor ou igual a 70, ele printa.
             printf("Voto obrigatório vagabundo\n");
-    {
+    {}
 
 
 
