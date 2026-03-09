@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> //para esse código é necessário essa biblioteca do C
 
 int main(){
     int numero;
@@ -9,6 +9,10 @@ int main(){
 
     if(numero > 0) {
         prinf("Número Positivo\n");
+    } else if(numer < 0) { //NÃO é igual python, o elif do python é else if no C, e precisa estar dps da chaves do if.
+        prinf("Número Negtivo\n");
+    } else {
+        prinf("Número Zero\n");
     }
 
     if(numero % 2 == 0) {
@@ -20,7 +24,7 @@ int main(){
     /*     if(numero < 0) {
         printf("Número Negativo\n");
     }
- */
+    */
 
     return 0
 }
