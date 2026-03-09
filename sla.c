@@ -13,6 +13,8 @@ int main(){
 
     if(numero % 2 == 0) {
         printf("Número Par\n");
+    } else { //else sem c, sempre se usa dps das chaves do if.
+        printf("Número ímpar")
     }
 
     /*     if(numero < 0) {
