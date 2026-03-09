@@ -12,7 +12,7 @@ int main() {
         printf("Não tem desconto nem galantia\n");
     }
 
-
+  ;   
 
     return 0;
 }
